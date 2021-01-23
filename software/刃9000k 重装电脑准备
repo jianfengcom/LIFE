@@ -1,4 +1,4 @@
---痛点
+--步骤
 1.install盘
 2.mvn仓库
 3.enpass & xmind
@@ -12,5 +12,8 @@
 2.D盘(install) 500G
 3.E盘(download & code) 500G
 4.F盘(resources) 500G
+
+--痛点
+1.删除分区会执行擦除数据操作, 速度超级慢100-150MB/s
 
 --R9000K-全量
