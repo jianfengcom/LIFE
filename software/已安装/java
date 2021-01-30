@@ -1,5 +1,5 @@
 --securecrt
-SecureCRT_8.0.0.7z
+SecureCRT_8.0.0.7z (已安装)
 ps: 断网破解
 
 --jdk
@@ -56,10 +56,12 @@ nginx-1.4.1.zip (pc)
 resin-pro-3.1.8.zip (pc)
 
 --redis manager
+rdm-2021.0.zip (已安装)
 redis-desktop-manager-0.9.3.817.exe
+FLUSHALL - 清除整个redis所有缓存
+FLUSHDB - 清除当前数据库缓存
 
 --Firefox
-Firefox 49.0.2
-
-
-================================================
+Firefox Setup 54.0.exe (已安装)
+C:\Program Files\Mozilla Firefox
+ps: https://blog.csdn.net/sunxiaopeng1012114/article/details/112968941
