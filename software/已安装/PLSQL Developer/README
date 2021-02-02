@@ -1,3 +1,7 @@
+--PLSQLDeveloper (已安装)
+plsqldev1405x64.msi (已安装)
+instantclient-basic-windows.x64-19.9.0.0.0dbru.zip
+
 --步骤
 1.下载官方30天试用版本
 https://www.allroundautomations.com/try-it-free/
@@ -6,16 +10,29 @@ https://www.allroundautomations.com/try-it-free/
 http://www.luoxiao123.cn/plsql14.html
 
 3. 中文
+首选项-中文设置.png
 
 4. Oracle简易客户端
 https://www.oracle.com/database/technologies/instant-client/winx64-64-downloads.html
 
-5. Oracle
+5. Oracle简易客户端 与 PLSQL Developer 的联动
 https://blog.csdn.net/ly7472712/article/details/111610194
 
+6. Oracle简易客户端 新增 tnsnames.ora
 
---其他
-解压版
+7. ORA-12154
+"ORA-12154: TNS: 无法解析指定的连接标识符"
+连接Oracle数据库的方式与其他常用数据库，如：MySql,Sql Server不同，这些数据库可以通过直接指定IP的方式连接，
+但Oracle需要通过Oracle客户端配置网络服务名的方式来连接。否则就会出现上述错误(ORA-12154.png)
+解决: 配置环境变量 TNS_ADMIN=D:\install\java\instantclient-basic-windows.x64\instantclient_19_9
+
+8. instantclient-sqlplus-windows.x64-19.9.0.0.0dbru.zip 不是这个, 看准了!!!
+instantclient-sqlplus-windows.x64.png
+
+
+--解压版
+PLSQLDeveloper_解压版.zip
+ps: 尚未安装过, 不知道能否成功安装, 留作备用
 https://blog.csdn.net/qq_38270106/article/details/111272863
 
 --快捷键
