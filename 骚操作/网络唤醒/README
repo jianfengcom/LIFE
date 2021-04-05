@@ -1,0 +1,35 @@
+-- 手机通过局域网唤醒电脑并远程控制
+https://www.bilibili.com/video/BV1u741157db?t=127
+
+
+1.查看网络连接
+
+2.查看 MAC地址 IP 路由器IP
+也称局域网地址（LAN Address）,以太网地址（Ethernet Address）或物理地址（Physical Address）
+
+2.1
+ipconfig /all
+
+3.路由器配置
+192.168.10.1
+48FA12!@
+
+4.光纤宽带
+192.168.1.1
+user
+pmxxd
+
+
+--路由器地址(192.168.10.1)打不开
+https://zhidao.baidu.com/question/1433234905237780379.html
+
+
+--RD Client 使用Microsoft账户登录远程桌面
+https://blog.csdn.net/lpwmm/article/details/105391407
+
+--Wake on Lan 设置
+https://www.jianshu.com/p/d89b5560c3ed
+设备管理器中 -> 网络适配器 -> 第一个驱动 右键属性
+端口映射
+
+
