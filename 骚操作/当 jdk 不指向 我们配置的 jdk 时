@@ -1,0 +1,6 @@
+--问题
+Java自动更新后自动配置了path, 即下面的路径, 导致我们配置的jdk不被优先使用
+
+--解决
+删掉 C:\Program Files (x86)\Common Files\Oracle\Java\javapath 目录下的文件
+删掉 C:\Program Files (x86)\Common Files\Oracle\Java\javapath_target_5028984 目录下的文件
