@@ -1,0 +1,11 @@
+--python
+python-3.9.6-amd64.exe
+查看版本: python -V
+
+--vim
+gvim_8.2.2825_x86_signed.exe
+
+--vimdoc (没啥用)
+vimcdoc-2.1.0-setup-unicode.exe
+
+--PowerShell (Shift)

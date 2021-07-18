@@ -1,0 +1,10 @@
+--node.js
+node-v14.17.3-x64.msi
+查看版本: node -v
+
+--Sublime Text
+sublime_text_build_4113_x64_setup.exe
+ps:
+安装JavaScript代码自动提示插件
+键入 Ctrl + Shift + P, 执行 Package Control:Install Package
+键入 Ctrl + Shift + P, 执行 SublimeCodeIntel
